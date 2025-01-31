@@ -21,11 +21,22 @@ h1{
     font-size: 40px;
 }
 header{
-    background-color: transparent;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 1000;
+    transition: top 0.3s;
+    height: 100px;
 }
 nav{
-    background-color: transparent;
+    background-color: black;
+    margin-top: 100px;    
+    padding: 3px 100px 3px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 #Elegance{
     text-align: center;
@@ -35,13 +46,16 @@ nav{
 }
 #text{
     position: absolute;
-    top: 40%;
-    left: 23%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     border: 3px solid white;
     background-color: rgba(0,0,0, 0.4);
     padding: 20px;
+    width: 100%;
+    border-radius: 10px;
 }
-nav{
-    border-bottom: 10px solid rgb(24, 24, 24);
+.cs{
+    height: 2000px;
 }
