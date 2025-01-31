@@ -1,32 +1,24 @@
 body{
+    background-color: rgb(24, 24, 24);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0px;
-    background-color: white;
-}
-header{
-    background-color: black;
-    height: 60px;
-}
-.headerbe{
-    text-decoration: none;
     color: white;
-    font-size: 22px;
-    text-align: center;
+    margin: 0px;
 }
-.headerbe:hover{
-    color: orange;
-}
-#cim{
-    background-color: blue;
+.fökep{
     width: 100%;
-    height: 500px;
-    background-image: url(https://blairdrummond-bucket.s3.eu-west-2.amazonaws.com/live/uploads/2021/03/17143733/BC3_7489-scaled.webp) ;
+    height: 800px;
+    background-color: aliceblue;
+    background-image: url(https://androgeek.hu/pictures/auto/itt-a-vadonatuj-1800-loeros-bugatti-tourbillon-hibrid_1.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-position: center;
+    box-shadow: 10px;
 }
 h1{
-    font-size: 50px;
+    text-shadow: 2px;
     text-align: center;
-    margin: 0px;
-    padding-top: 430px;
+}
+header{
+    background-color: transparent;
+    
 }
