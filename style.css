@@ -31,6 +31,10 @@ header{
     z-index: 10000;
     transition: top 0.3s;
     height: 100px;
+    color: white;
+}
+.header:hover{
+    color: rgb(201, 201, 201);
 }
 nav{
     background-color: rgba(0,0,0, 0.8);
@@ -66,10 +70,13 @@ a{
     color: white;
     text-decoration: none;
 }
+p{
+    text-align: justify;
+}
 #found{
     background-color: black;
     width: 1000px;
-    border-radius: 20px;
+    border-radius: 60px;
     margin: 40px;
     padding: 20px;
     height: 400px;
@@ -79,9 +86,10 @@ a{
 }
 #Ettore{
     height: 300px;
-    border-radius: 10px;
+    border-radius: 30px;
     float: right;
     margin-left: 40px;
+    width: auto;
 }
 #Ettore_link{
     text-decoration: underline;
@@ -90,7 +98,7 @@ a{
 #aftdeath{
     background-color: black;
     width: 1000px;
-    border-radius: 20px;
+    border-radius: 60px;
     float: left;
     height: 400px;
     padding: 20px;
@@ -100,14 +108,15 @@ a{
 }
 #veyron{
     height: 300px;
-    border-radius: 10px;
+    border-radius: 30px;
     float: left;
     margin-right: 40px;
+    width: auto;
 }
 #today{
     background-color: black;
     width: 1000px;
-    border-radius: 20px;
+    border-radius: 60px;
     margin: 40px;
     padding: 20px;
     height: 400px;
@@ -117,22 +126,249 @@ a{
 }
 #chiron{
     height: 300px;
-    border-radius: 10px;
+    border-radius: 30px;
     float: right;
     margin-left: 40px;
+    width: auto;
 }
 table{
     border-collapse: collapse;
     border: 2px solid white;
-    width: 98%;
+    width: 50%;
     margin: 20px;
     font-size: 20pt;
+    margin-left: 25%;
 }
-tr,td{
+tr,td,th{
     border: 2px solid white;
     text-align: center;
 }
 img{
     height: 100px;
     width: 100px;
+}
+td{
+    padding: 10px;
+    font-size: 25pt;
+}
+.store-items{
+background-color: white;
+border-radius: 20px;
+color: black;
+width: 400px;
+margin: 20px;
+}
+#watch{
+    background-color: white;
+    height: 700px;
+    width: 1500px;
+    margin: 40px;
+    border-radius: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+}
+#champ{
+    background-color: white;
+    height: 700px;
+    width: 1500px;
+    margin: 40px;
+    border-radius: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+}
+#headphones{
+    background-color: white;
+    height: 700px;
+    width: 1500px;
+    margin: 40px;
+    border-radius: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+}
+#headphones img{
+    height: 700px;
+    width: 700px;
+}
+#champ img{
+    height: 700px;
+    width: 700px;
+}
+#watch img{
+    height: 700px;
+    width: 700px;
+}
+#watch h3{
+    color: black;
+    font-size: 40pt;
+    margin-left: 10px;
+}
+#champ h3{
+    color: black;
+    font-size: 40pt;
+    margin-left: 10px;
+}
+#headphones h3{
+    color: black;
+    font-size: 40pt;
+    margin-left: 10px;
+}
+.purchase {
+    position: absolute;
+    bottom: 20px;
+    left: 800px;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 350px;
+    height: 75px;
+    font-size: 15pt;
+}
+#watch h4{
+    position: absolute;
+    font-size: 18pt;
+    margin-left: 10px;
+    color: black;
+    top: 230px;
+    left: 720px;
+    font-weight: bold;
+}
+#champ h4{
+    position: absolute;
+    font-size: 18pt;
+    margin-left: 10px;
+    color: black;
+    top: 150px;
+    left: 720px;
+    font-weight: bold;
+}
+#headphones h4{
+    position: absolute;
+    font-size: 18pt;
+    margin-left: 10px;
+    color: black;
+    top: 155px;
+    left: 720px;
+    font-weight: bold;
+}
+#watch p{
+    position: absolute;
+    font-size: 18pt;
+    margin-left: 10px;
+    color: black;
+    top: 270px;
+    left: 720px;
+    padding: 20px;
+}
+#champ p{
+    position: absolute;
+    font-size: 18pt;
+    margin-left: 10px;
+    color: black;
+    top: 190px;
+    left: 720px;
+    padding: 20px;
+}
+#headphones p{
+    position: absolute;
+    font-size: 18pt;
+    margin-left: 10px;
+    color: black;
+    top: 195px;
+    left: 720px;
+    padding: 20px;
+}
+#store{
+    color: black;
+}
+.number-chooser {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    border: 2px solid #ccc;
+    border-radius: 18px;
+    overflow: hidden;
+    bottom: 120px;
+    left: 800px;
+}
+
+.number-chooser button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    user-select: none;
+}
+
+.number-chooser button:active {
+    background-color: #e0e0e0;
+}
+
+.number-chooser input {
+    width: 60px;
+    text-align: center;
+    border: none;
+    font-size: 1.2rem;
+    outline: none;
+}
+#purchase{
+    max-width: 600px;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .form-control {
+    margin-bottom: 1rem;
+  }
+  
+  .form-control label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .form-control input,
+  .form-control textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+button[type="submit"] {
+    background-color: #222;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  button[type="submit"]:hover {
+    background-color: #444;
+  }
+  #purchase-page h3{
+    color: white;
+    font-size: 40pt;
+    margin-left: 10px;
+    text-align: center;
+}
+#chiron-kep{
+    height: 600px;
+    width: auto;
 }
