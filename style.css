@@ -66,3 +66,58 @@ a{
     color: white;
     text-decoration: none;
 }
+#found{
+    background-color: black;
+    width: 1000px;
+    border-radius: 20px;
+    margin: 40px;
+    padding: 20px;
+    height: 400px;
+    float: right;
+    margin-left: 50%;
+    font-size: 20pt;
+}
+#Ettore{
+    height: 300px;
+    border-radius: 10px;
+    float: right;
+    margin-left: 40px;
+}
+#Ettore_link{
+    text-decoration: underline;
+    font-weight: bold;
+}
+#aftdeath{
+    background-color: black;
+    width: 1000px;
+    border-radius: 20px;
+    float: left;
+    height: 400px;
+    padding: 20px;
+    margin: 40px;
+    font-size: 20pt;
+    margin-right: 50%;
+}
+#veyron{
+    height: 300px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 40px;
+}
+#today{
+    background-color: black;
+    width: 1000px;
+    border-radius: 20px;
+    margin: 40px;
+    padding: 20px;
+    height: 400px;
+    float: right;
+    margin-left: 50%;
+    font-size: 20pt;
+}
+#chiron{
+    height: 300px;
+    border-radius: 10px;
+    float: right;
+    margin-left: 40px;
+}
