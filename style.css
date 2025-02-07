@@ -133,15 +133,24 @@ p{
 }
 table{
     border-collapse: collapse;
-    border: 2px solid white;
-    width: 50%;
+    border: none;
+    width: 70%;
     margin: 20px;
     font-size: 20pt;
-    margin-left: 25%;
+    margin-left: 15%;
+}
+table a:hover{
+    color: rgb(167, 166, 166);
 }
 tr,td,th{
-    border: 2px solid white;
+    border: none;
     text-align: center;
+    padding: 10px;
+}
+th{
+    border-bottom: 5px solid white;
+    border-top: none;
+    font-size: 25pt;
 }
 img{
     height: 100px;
@@ -232,6 +241,9 @@ margin: 20px;
     width: 350px;
     height: 75px;
     font-size: 15pt;
+}
+.purchase:hover {
+    background-color: #222;
 }
 #watch h4{
     position: absolute;
@@ -371,4 +383,12 @@ button[type="submit"] {
 #chiron-kep{
     height: 600px;
     width: auto;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
