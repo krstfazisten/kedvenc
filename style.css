@@ -170,7 +170,7 @@ margin: 20px;
 #watch{
     background-color: white;
     height: 700px;
-    width: 1500px;
+    width: 1750px;
     margin: 40px;
     border-radius: 40px;
     display: flex;
@@ -181,7 +181,7 @@ margin: 20px;
 #champ{
     background-color: white;
     height: 700px;
-    width: 1500px;
+    width: 1750px;
     margin: 40px;
     border-radius: 40px;
     display: flex;
@@ -192,7 +192,7 @@ margin: 20px;
 #headphones{
     background-color: white;
     height: 700px;
-    width: 1500px;
+    width: 1750px;
     margin: 40px;
     border-radius: 40px;
     display: flex;
@@ -215,17 +215,20 @@ margin: 20px;
 #watch h3{
     color: black;
     font-size: 40pt;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 #champ h3{
     color: black;
     font-size: 40pt;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-right: 70px;
 }
 #headphones h3{
     color: black;
     font-size: 40pt;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .purchase {
     position: absolute;
@@ -235,16 +238,20 @@ margin: 20px;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 100px;
-    border: none;
+    border: 3px solid black;
+    box-shadow: none;
     cursor: pointer;
     font-size: 1rem;
-    width: 350px;
+    width: 850px;
     height: 75px;
     font-size: 15pt;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
+.purchase-text {
+    position: relative;
+    z-index: 2;
+}
 .purchase:hover {
-    background-color: #222;
     transform: scale(1.1);
 }
 #watch h4{
@@ -252,7 +259,7 @@ margin: 20px;
     font-size: 18pt;
     margin-left: 10px;
     color: black;
-    top: 230px;
+    top: 156px;
     left: 720px;
     font-weight: bold;
 }
@@ -261,7 +268,7 @@ margin: 20px;
     font-size: 18pt;
     margin-left: 10px;
     color: black;
-    top: 150px;
+    top: 156px;
     left: 720px;
     font-weight: bold;
 }
@@ -276,16 +283,16 @@ margin: 20px;
 }
 #watch p{
     position: absolute;
-    font-size: 18pt;
+    font-size: 22pt;
     margin-left: 10px;
     color: black;
-    top: 270px;
+    top: 190px;
     left: 720px;
     padding: 20px;
 }
 #champ p{
     position: absolute;
-    font-size: 18pt;
+    font-size: 22pt;
     margin-left: 10px;
     color: black;
     top: 190px;
@@ -294,10 +301,10 @@ margin: 20px;
 }
 #headphones p{
     position: absolute;
-    font-size: 18pt;
+    font-size: 22pt;
     margin-left: 10px;
     color: black;
-    top: 195px;
+    top: 189px;
     left: 720px;
     padding: 20px;
 }
@@ -310,9 +317,9 @@ margin: 20px;
     align-items: center;
     width: fit-content;
     border: 2px solid #ccc;
-    border-radius: 18px;
+    border-radius: 20px;
     overflow: hidden;
-    bottom: 120px;
+    bottom: 130px;
     left: 800px;
 }
 
