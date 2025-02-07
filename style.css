@@ -241,9 +241,11 @@ margin: 20px;
     width: 350px;
     height: 75px;
     font-size: 15pt;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 .purchase:hover {
     background-color: #222;
+    transform: scale(1.1);
 }
 #watch h4{
     position: absolute;
